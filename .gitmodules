@@ -7,3 +7,6 @@
 [submodule "gqrx"]
 	path = gqrx
 	url = https://github.com/csete/gqrx.git
+[submodule "gr-iqbal"]
+	path = gr-iqbal
+	url = https://github.com/osmocom/gr-iqbal.git
