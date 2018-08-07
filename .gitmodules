@@ -13,3 +13,6 @@
 [submodule "gr-osmosdr"]
 	path = gr-osmosdr
 	url = git://git.osmocom.org/gr-osmosdr
+[submodule "LimeSuite"]
+	path = LimeSuite
+	url = https://github.com/myriadrf/LimeSuite.git
