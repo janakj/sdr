@@ -19,3 +19,6 @@
 [submodule "osmo-sdr"]
 	path = osmo-sdr
 	url = https://github.com/manuts/osmo-sdr.git
+[submodule "SoapySDR"]
+	path = SoapySDR
+	url = https://github.com/pothosware/SoapySDR.git
