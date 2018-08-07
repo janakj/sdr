@@ -1,2 +1,2 @@
-# sdr
-Software Defined Radio Experiments
+# Experiments with Software Defined Radio
+
