@@ -10,3 +10,6 @@
 [submodule "gr-iqbal"]
 	path = gr-iqbal
 	url = https://github.com/osmocom/gr-iqbal.git
+[submodule "gr-osmosdr"]
+	path = gr-osmosdr
+	url = git://git.osmocom.org/gr-osmosdr
