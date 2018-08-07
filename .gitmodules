@@ -4,3 +4,6 @@
 [submodule "gnuradio"]
 	path = gnuradio
 	url = https://github.com/gnuradio/gnuradio.git
+[submodule "gqrx"]
+	path = gqrx
+	url = https://github.com/csete/gqrx.git
