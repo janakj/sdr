@@ -7,6 +7,7 @@ apt-get install --yes --no-install-recommends \
 	doxygen                               \
 	graphviz                              \
 	texlive                               \
+        ghostscript                           \
 	libpython-dev                         \
 	libpython3-dev swig
 
@@ -26,6 +27,8 @@ apt-get install --yes --no-install-recommends \
 	libqwt-dev                            \
 	python-lxml                           \
 	python-cheetah                        \
+        python-numpy                          \
+        python-gtk2-dev                       \
 	liborc-0.4-dev                        \
 	python-wxgtk3.0-dev                   \
 	libcomedi-dev                         \
