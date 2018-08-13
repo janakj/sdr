@@ -1,2 +1,1 @@
-# Experiments with Software Defined Radio
-
+This repository contains an assorted collection of experiments with Software Defined Radio (SDR). Most of the experiments were designed for and tested with [LimeSDR](https://myriadrf.org/projects/limesdr/).
