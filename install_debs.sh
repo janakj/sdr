@@ -1,13 +1,21 @@
 #!/bin/bash
 set -e
 
+#
+# Common packages, needed by all source packages
+#
 apt-get install --yes --no-install-recommends \
-	cmake                                 \
-	build-essential                       \
-	doxygen                               \
-	graphviz                              \
-	texlive                               \
-        ghostscript                           \
+        cmake                                 \
+        build-essential                       \
+        doxygen                               \
+        graphviz                              \
+        texlive                               \
+        ghostscript
+
+#
+# SoapySDR
+#
+apt-get install --yes --no-install-recommends \
 	libpython-dev                         \
 	libpython3-dev swig
 
