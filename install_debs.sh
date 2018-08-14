@@ -80,6 +80,16 @@ apt-get install --yes --no-install-recommends \
 	pkg-config                            \
 	libfftw3-dev
 
+#
+# gr-osmosdr, depends on gnuradio, librtlsdr, soapysdr, gr-iqbal
+#
+apt-get install --yes --no-install-recommends \
+        libboost-thread-dev                   \
+        libboost-system-dev                   \
+        libboost-chrono-dev                   \
+        libboost-date-time-dev                \
+        libboost-atomic-dev 
+
 # gqrx
 apt-get install --yes --no-install-recommends \
 	libqt5svg5-dev                        \
