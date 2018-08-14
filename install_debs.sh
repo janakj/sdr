@@ -20,7 +20,7 @@ apt-get install --yes --no-install-recommends \
 	libpython3-dev swig
 
 #
-# LimeSuite
+# LimeSuite, depends on SoapySDR
 #
 apt-get install --yes --no-install-recommends \
 	libusb-1.0-0-dev                      \
@@ -71,6 +71,14 @@ apt-get install --yes --no-install-recommends \
 	libcppunit-dev                        \
 	python-sphinx                         \
 	libzmq3-dev
+
+#
+# gr-iqbal, depends on gnuradio, libosmosdr
+#
+apt-get install --yes --no-install-recommends \
+	libboost-system-dev                   \
+	pkg-config                            \
+	libfftw3-dev
 
 # gqrx
 apt-get install --yes --no-install-recommends \
