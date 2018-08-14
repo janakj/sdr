@@ -19,7 +19,9 @@ apt-get install --yes --no-install-recommends \
 	libpython-dev                         \
 	libpython3-dev swig
 
+#
 # LimeSuite
+#
 apt-get install --yes --no-install-recommends \
 	libusb-1.0-0-dev                      \
 	gnuplot                               \
@@ -29,7 +31,23 @@ apt-get install --yes --no-install-recommends \
 	libsqlite-dev                         \
 	libi2c-dev
 
+#
+#librtlsdr
+#
+apt-get install --yes --no-install-recommends \
+	libusb-1.0-0-dev                      \
+	pkg-config
+
+#
+# libosmosdr
+#
+apt-get install --yes --no-install-recommends \
+	libusb-1.0-0-dev                      \
+	pkg-config
+
+#
 # gnuradio
+#
 apt-get install --yes --no-install-recommends \
 	libpython-dev                         \
 	swig                                  \
@@ -53,11 +71,6 @@ apt-get install --yes --no-install-recommends \
 	libcppunit-dev                        \
 	python-sphinx                         \
 	libzmq3-dev
-
-# librtlsdr
-apt-get install --yes --no-install-recommends \
-	libusb-1.0-0-dev                      \
-	pkg-config
 
 # gqrx
 apt-get install --yes --no-install-recommends \
