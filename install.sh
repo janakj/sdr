@@ -4,7 +4,7 @@ set -e
 root=$(pwd)
 prefix=/usr/local
 buildroot=$root/.build
-subprojects="SoapySDR LimeSuite gnuradio librtlsdr osmo-sdr/software/libosmosdr gr-iqbal gr-osmosdr gqrx"
+subprojects="SoapySDR LimeSuite librtlsdr gnuradio osmo-sdr/software/libosmosdr gr-iqbal gr-osmosdr gqrx"
 
 git submodule update --init --recursive
 

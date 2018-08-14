@@ -54,6 +54,11 @@ apt-get install --yes --no-install-recommends \
 	python-sphinx                         \
 	libzmq3-dev
 
+# librtlsdr
+apt-get install --yes --no-install-recommends \
+	libusb-1.0-0-dev                      \
+	pkg-config
+
 # gqrx
 apt-get install --yes --no-install-recommends \
 	libqt5svg5-dev                        \
