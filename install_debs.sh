@@ -90,7 +90,13 @@ apt-get install --yes --no-install-recommends \
         libboost-date-time-dev                \
         libboost-atomic-dev 
 
-# gqrx
+#
+# gqrx, depends on gnuradio, gr-osmosdr
+#
 apt-get install --yes --no-install-recommends \
+	pkg-config                            \
 	libqt5svg5-dev                        \
+	libpulse-dev                          \
+	libboost-system-dev                   \
+	libboost-program-options-dev          \
         qtbase5-dev
