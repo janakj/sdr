@@ -31,6 +31,9 @@ apt-get install --yes --no-install-recommends \
 
 # gnuradio
 apt-get install --yes --no-install-recommends \
+	libpython-dev                         \
+	swig                                  \
+	libusb-1.0-0-dev                      \
 	python-qt4                            \
 	libqwt-dev                            \
 	python-lxml                           \
